@@ -1,0 +1,7 @@
+#ifndef _TEST_
+#define _TEST_
+#include <stdarg.h>
+int _printf(const char *format, ...);
+int _putchar( char c);
+int _printString(va_list str);
+#endif /* _TEST_ */
